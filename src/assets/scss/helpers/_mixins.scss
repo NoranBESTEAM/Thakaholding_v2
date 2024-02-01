@@ -1,0 +1,53 @@
+@mixin breakpoints($point) {
+
+    // https://mdbootstrap.com/docs/standard/extended/screen-sizes/
+
+    // Class infix : None
+
+    @if $point == x-small {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }
+
+    // Class infix : sm
+
+    @else if $point == small {
+        @media (min-width: 576px) and (max-width: 768px) {
+            @content;
+        }
+    }
+
+    // Class infix : md
+
+    @else if $point == medium {
+        @media (min-width: 768px) and (max-width: 992px) {
+            @content;
+        }
+    }
+
+    // Class infix : lg
+
+    @else if $point == large {
+        @media (min-width: 992px) and (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    // Class infix : xl
+
+    @else if $point == x-Large {
+        @media (min-width: 1200px) and (max-width: 1400px) {
+            @content;
+        }
+    }
+
+    // Class infix : xxl
+
+    @else if $point == x-x-Large {
+        @media (min-width: 1400px) {
+            @content;
+        }
+    }
+    
+}
