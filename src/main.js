@@ -10,6 +10,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import Normalize
 import "normalize.css";
 
+// import Fonts
+import "@/assets/scss/style.scss";
+
+// import Wow Library
+import "animate.css";
+
 //import the fontawesome core
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -23,9 +29,6 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 //Brands Icons
 import { fab } from "@fortawesome/free-brands-svg-icons";
-
-// import Wow Library
-import "animate.css";
 
 //add icons to the library
 library.add(fas, far, fab);
