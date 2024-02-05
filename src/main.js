@@ -33,6 +33,9 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 // import Navbar Component
 import Navbar from "@/components/layouts/Navbar.vue";
 
+// import Footer Component
+import Footer from "@/components/layouts/Footer.vue";
+
 //add icons to the library
 library.add(fas, far, fab);
 
@@ -42,5 +45,7 @@ app.use(store);
 app.component("font-awesome-icon", FontAwesomeIcon);
 //Add Navbar Component
 app.component('Navbar', Navbar);
+// Add Footer Component
+app.component('Footer', Footer);
 app.use(router);
 app.mount("#app");
