@@ -3,6 +3,7 @@ $White: #ffffff;
 $Black: #071e2b;
 $Gry: #424242;
 $Primary: #2198d5;
+$Light-Primary:#DDF1F9;
 $Blue: #6bbae3;
 $Linear-Blue: linear-gradient(
   41deg,
@@ -19,4 +20,6 @@ $Linear-Blue: linear-gradient(
   #00dcce 100%
 );
 $Linear-Black: linear-gradient(180deg, rgba(7, 30, 43, 0) 0%, #071e2b 100%);
+// https://color.adobe.com/create/image-gradient
+$Header-BG:linear-gradient(45deg,#1F3260 10%,#2867A1 50%,#23A9B8 100%);
 $Box-Shadow: rgba(155, 155, 155, 0.25);

@@ -19,7 +19,7 @@
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
-                <font-awesome-icon :icon="['fas', 'fa-bars']" />
+                <font-awesome-icon :icon="['fas', 'fa-bars']" id="burgerBtn"/>
             </button>
 
             <!-- Sidebar -->
@@ -112,11 +112,13 @@ export default {
             // console.log(window.scrollY);
             if (window.scrollY > 100) {
                 document.querySelector('nav').style.backgroundColor = "#071E2B";
+                document.getElementById('burgerBtn').style.color = "#2198d5";
                 return (this.isDefaultImage = false);
             }
             if (window.scrollY <= 100) {
                 if (!this.defaultImage) {
                     document.querySelector('nav').style.backgroundColor = "transparent";
+                    document.getElementById('burgerBtn').style.color = "#fff";
                     return (this.isDefaultImage = true);
                 }
             }
@@ -142,7 +144,7 @@ nav {
 
         .navbar-toggler {
             svg {
-                color: $Primary;
+                color: $White;
                 width: 24px;
                 height: 24px;
             }
@@ -227,7 +229,8 @@ nav {
 
                         a:hover,
                         a.router-link-exact-active {
-                            color: $Primary;
+                            font-family: 'FFShamelFamily-Bold';
+                            color: $White;
                         }
 
                     }
