@@ -12,14 +12,14 @@
             <!-- https://laracasts.com/discuss/channels/javascript/bootstrap-navbar-changing-logo-on-scroll -->
             <!-- https://www.youtube.com/watch?v=hSbLKHjZrYU -->
             <router-link to="/" class="navbar-brand p-0">
-                <img :src="isDefaultImage ? defaultImg : alternativeImg" alt="ThakaaHoldingLogo"/>
+                <img :src="isDefaultImage ? defaultImg : alternativeImg" alt="ThakaaHoldingLogo" />
             </router-link>
 
             <!-- Toggle Button -->
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
-                <font-awesome-icon :icon="['fas', 'fa-bars']" id="burgerBtn"/>
+                <font-awesome-icon :icon="['fas', 'fa-bars']" id="burgerBtn" />
             </button>
 
             <!-- Sidebar -->
@@ -68,12 +68,12 @@
                     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
                         <router-link :to="{ name: '' }" class="btn rounded border-0 ms-0 ms-lg-4 mb-4 mb-lg-0">
                             <span>EN</span>
-                            <font-awesome-icon :icon="['fas', 'fa-earth-europe']" class="me-2" />
+                            <font-awesome-icon :icon="['fas', 'fa-earth-europe']" class="me-2 text-white" />
                         </router-link>
                         <!-- mt-2 mt-lg-0 -->
                         <router-link :to="{ name: 'contact-us' }" class="btn rounded border-0">
                             <span>اتصل بنا</span>
-                            <font-awesome-icon :icon="['fas', 'fa-phone']" class="me-2" />
+                            <font-awesome-icon :icon="['fas', 'fa-phone']" class="me-2 text-white" />
                         </router-link>
                     </div>
 
@@ -99,6 +99,21 @@ export default {
             defaultImg: require('../../assets/images/navbar/logo_white.webp'),
             alternativeImg: require('../../assets/images/navbar/logo_dark.webp'),
         };
+    },
+    mounted() {
+        document.addEventListener('scroll', () => {
+            // https://stackoverflow.com/questions/24219702/struggling-with-classlist-add-and-getelementsbyclassname
+            var element = document.getElementsByClassName('router-link-exact-active');
+            if (window.scrollY > 100) {
+                for (var i = 0; i < element.length; i++) {
+                    element[i].style.color = "#2198d5";
+                }
+            } else {
+                for (var i = 0; i < element.length; i++) {
+                    element[i].style.color = "#fff";
+                }
+            }
+        })
     },
     created() {
         window.addEventListener("scroll", this.handleScroll);
@@ -229,8 +244,21 @@ nav {
 
                         a:hover,
                         a.router-link-exact-active {
+
                             font-family: 'FFShamelFamily-Bold';
                             color: $White;
+
+                            @include breakpoints(x-small) {
+                                color: $Primary !important;
+                            }
+
+                            @include breakpoints(small) {
+                                color: $Primary !important;
+                            }
+
+                            @include breakpoints(medium) {
+                                color: $Primary !important;
+                            }
                         }
 
                     }
@@ -272,6 +300,5 @@ nav {
         }
 
     }
-
 }
 </style>

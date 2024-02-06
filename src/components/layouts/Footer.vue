@@ -54,11 +54,11 @@
 
                 <div class="col-6 d-block d-lg-none mx-auto mt-3 mt-lg-0 wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="1" data-wow-delay="0.3s">
                     <p class="mb-2">
-                        <img src="@/assets/images/footer/phone.webp" alt="Contact" class="contactImg ms-2">
+                        <img src="@/assets/images/footer/phone.webp" alt="Contact" class="contactImg ms-1 ms-sm-2">
                         <a href="tel:+966555177306" class="text-reset">9-6655-5177-306+</a>
                     </p>
                     <p class="mb-0">
-                        <img src="@/assets/images/footer/mail.webp" alt="Mail" class="contactImg ms-2">
+                        <img src="@/assets/images/footer/mail.webp" alt="Mail" class="contactImg ms-1 ms-sm-2">
                         <a href="mailto:info@Steamademy.com" class="text-reset">INFO@THAKA.SA</a>
                     </p>
                 </div>
@@ -163,6 +163,11 @@ footer {
             padding-bottom: 8px;
 
             border-bottom: 1px solid $White;
+
+            @include breakpoints(x-small) {
+                margin-left: 0;
+                margin-right: 0;
+            }
 
             #footer_logo {
                 width: 153.121px;
