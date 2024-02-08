@@ -1,6 +1,4 @@
 <template>
-    <!-- https://www.youtube.com/watch?v=FaMW-CtExrs -->
-
     <section id="overview">
 
         <div id="layer">
@@ -282,35 +280,90 @@ export default {
 
     mounted() {
 
-        let valueDisplays = document.querySelectorAll(".num");
+        // https://www.youtube.com/watch?v=eMtebHRQaM4
 
-        let interval = 5000;
+        var mainDiv = document.getElementById("overview");
 
-        // console.log(valueDisplays);
+        var count = document.getElementsByClassName("num");
 
-        valueDisplays.forEach(valueDisplay => {
+        var inc = [];
 
-            let startValue = 0;
+        window.onscroll = function () {
 
-            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            var counter = setInterval(() => {
 
-            // console.log(endValue);
+                var topElem = mainDiv.offsetTop;
 
-            let duration = Math.floor(interval / endValue);
+                var btmElem = mainDiv.offsetTop + mainDiv.clientHeight;
 
-            let counter = setInterval(function () {
+                var topScreen = window.scrollY;
 
-                startValue += 1;
+                var btmScreen = window.scrollY + window.innerHeight;
 
-                valueDisplay.textContent = startValue;
+                if (btmScreen > topElem && topScreen < btmElem) {
 
-                if (startValue == endValue) {
+                    for (let i = 0; i < count.length; i++) {
+                        inc.push(1);
+                        if (inc[i] != count[i].getAttribute("data-val")) {
+                            inc[i]++;
+                        }
+                        count[i].innerHTML = inc[i];
+                    }
+
+                } else {
+
                     clearInterval(counter);
+
+                    for (let i = 0; i < count.length; i++) {
+
+                        count[i].innerHTML = '00';
+
+                        inc = [];
+
+                    }
+
                 }
 
-            }, duration);
+            }, 3000);
 
-        });
+        }
+
+
+        // https://www.youtube.com/watch?v=FaMW-CtExrs 
+
+        /* 
+
+            let valueDisplays = document.querySelectorAll(".num");
+
+            let interval = 5000;
+
+            // console.log(valueDisplays);
+
+            valueDisplays.forEach(valueDisplay => {
+
+                let startValue = 0;
+
+                let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+
+                // console.log(endValue);
+
+                let duration = Math.floor(interval / endValue);
+
+                let counter = setInterval(function () {
+
+                    startValue += 1;
+
+                    valueDisplay.textContent = startValue;
+
+                    if (startValue == endValue) {
+                        clearInterval(counter);
+                    }
+
+                }, duration);
+
+            });
+
+        */
 
     }
 
