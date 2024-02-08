@@ -274,11 +274,15 @@
 
 <script>
 
+import WOW from "wow.js";
+
 export default {
 
     name: 'Overview',
 
     mounted() {
+
+        new WOW().init();
 
         // https://www.youtube.com/watch?v=eMtebHRQaM4
 
