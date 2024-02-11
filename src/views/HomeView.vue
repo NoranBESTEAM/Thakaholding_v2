@@ -14,6 +14,9 @@
   <!-- Start Associate -->
   <Associate />
   <!-- End Associate -->
+  <!-- Start News -->
+  <News />
+  <!-- End News -->
   <!-- Start Footer -->
   <Footer />
   <!-- End Footer -->
@@ -25,6 +28,7 @@ import Story from '@/components/home/Story.vue';
 import Partner from '@/components/home/Partner.vue';
 import Overview from '@/components/home/Overview.vue';
 import Associate from '@/components/home/Associate.vue';
+import News from '@/components/home/News.vue';
 export default {
   name: 'HomeView',
   components: {
@@ -33,6 +37,7 @@ export default {
     Partner,
     Overview,
     Associate,
+    News,
   }
 }
 </script>
