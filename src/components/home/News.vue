@@ -127,17 +127,19 @@
 
             <!-- In Small Screen -->
 
+            <!-- https://www.youtube.com/watch?v=kHPm_AlxP7U&t=110s -->
+
             <div id="carouselNewsSlidesOnly"
-                class="carousel slide d-block d-xl-none wow animate__animated animate__slideInUp animate__slower"
+                class="carousel slide d-flex d-xl-none wow animate__animated animate__slideInUp animate__slower"
                 data-wow-offset="1" data-wow-delay="0.1s" data-bs-ride="carousel">
 
                 <div class="carousel-inner">
 
                     <div class="carousel-item active" data-bs-interval="10000">
-
-                        <div class="vertical_card card h-100 border-0">
+                        <div class="card m-auto border-0">
                             <div class="img_wrapper">
-                                <img src="@/assets/images/home/news_img_1.webp" class="card-img-top" alt="...">
+                                <!-- class="card-img-top"  -->
+                                <img src="@/assets/images/home/news_img_1.webp" alt="...">
                                 <div class="img_layer"></div>
                             </div>
                             <div class="card-body">
@@ -147,14 +149,13 @@
                                     البرامج والمشاريع المشتركة - إعداد خطط استراتيجية واستشارات في مجال ...</p>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
-
-                        <div class="vertical_card card h-100 border-0">
+                        <div class="card m-auto border-0">
                             <div class="img_wrapper">
-                                <img src="@/assets/images/home/news_img_2.webp" class="card-img-top" alt="...">
+                                <!-- class="card-img-top"  -->
+                                <img src="@/assets/images/home/news_img_2.webp" alt="...">
                                 <div class="img_layer"></div>
                             </div>
                             <div class="card-body">
@@ -164,14 +165,13 @@
                                     تعزز التعليم في المنطقة. هدفنا هو بناء مستقبل مليء بالفرص والإمكانيات.</p>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
-
-                        <div class="vertical_card card h-100 border-0">
+                        <div class="card m-auto border-0">
                             <div class="img_wrapper">
-                                <img src="@/assets/images/home/news_img_3.webp" class="card-img-top" alt="...">
+                                <!-- class="card-img-top"  -->
+                                <img src="@/assets/images/home/news_img_3.webp" alt="...">
                                 <div class="img_layer"></div>
                             </div>
                             <div class="card-body">
@@ -181,7 +181,6 @@
                                     الورشة مجموعة من الخبراء في مجال الروبوتات والمسابقات التعليمية.</p>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
@@ -256,7 +255,8 @@ export default {
                 font-style: normal;
                 font-weight: 400;
                 line-height: 180%;
-                &:hover{
+
+                &:hover {
                     color: $Dark-Primary;
                 }
             }
@@ -400,10 +400,9 @@ export default {
 
                 .carousel-item {
 
-                    .vertical_card {
+                    .card {
 
                         width: 80%;
-                        margin: auto;
 
                         border-radius: 0;
                         box-shadow: 0px 4px 4px 0px $Box-Shadow;
@@ -413,7 +412,7 @@ export default {
                             position: relative;
 
                             @include breakpoints(x-small) {
-                                height: 236px;
+                                height: 200px;
                             }
 
                             @include breakpoints(small) {
@@ -422,19 +421,19 @@ export default {
                             }
 
                             @include breakpoints(medium) {
-                                width:557px;
+                                width: 557px;
                                 height: 350px;
                             }
 
                             @include breakpoints(large) {
-                                width:749px;
+                                width: 749px;
                                 height: 471px;
                             }
 
                             img {
                                 width: 100%;
                                 height: 100%;
-                                object-fit: cover;
+                                object-fit: fill;
                                 border-radius: 0;
                             }
 
@@ -450,7 +449,6 @@ export default {
                                 border-top: 16px solid $Dark-Primary;
                                 border-right: 16px solid $Dark-Primary;
                             }
-
                         }
 
                         .card-body {
@@ -458,26 +456,22 @@ export default {
                             background: $Dark-Primary;
 
                             @include breakpoints(x-small) {
-                                // height: 275px;
-                                height: 315px;
+                                height: 285px;
                             }
 
                             @include breakpoints(small) {
-                                // height: 210px;
-                                height: 230px;
+                                height: 210px;
                             }
 
                             @include breakpoints(medium) {
-                                // height: 165px;
-                                height: 175px;
+                                height: 165px;
                             }
 
                             @include breakpoints(large) {
-                                // height: 140px;
-                                height:150px
+                                height: 140px;
                             }
 
-                            .card-title {
+                            h5 {
                                 font-family: 'FFShamelFamily-Bold';
                                 color: $White;
                                 // text-align: justify;
@@ -485,15 +479,31 @@ export default {
                                 font-style: normal;
                                 font-weight: 400;
                                 line-height: 156%;
+
+                                /* @media screen and (max-width: 484px) {
+                                    // height: 60px;
+                                } */
+
+                                /* @include breakpoints(x-small) {
+                                    height: 55px;
+                                } */
+
+                                @include breakpoints(small) {
+                                    height: 45px;
+                                }
+
+                                @include breakpoints(medium) {
+                                    height: 25px;
+                                }
                             }
 
-                            .card-text {
+                            p {
                                 color: $White;
-                                text-align: justify;
+                                // text-align: justify;
                                 font-size: 16px;
                                 font-style: normal;
                                 font-weight: 400;
-                                line-height: 180%;
+                                // line-height: 180%;
                             }
 
                         }
