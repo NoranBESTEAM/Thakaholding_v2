@@ -31,7 +31,7 @@
   <div class="card vw-100 min-vh-100" v-if="showCard">
 
     <!-- import navbar in main.js file -->
-    <!-- <Navbar /> -->
+    <Navbar />
 
     <!-- Start Header -->
     <Header />
