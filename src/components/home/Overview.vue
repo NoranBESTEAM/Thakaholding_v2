@@ -304,7 +304,7 @@ export default {
 
                 var btmScreen = window.scrollY + window.innerHeight;
 
-                if (btmScreen > topElem && topScreen < btmElem) {
+                if (btmScreen > topElem || topScreen < btmElem) {
 
                     for (let i = 0; i < count.length; i++) {
                         inc.push(1);
