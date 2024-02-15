@@ -21,4 +21,9 @@ export default {
 #app a{
   text-decoration: none;
 }
+
+body{
+  overflow: visible !important;
+}
+
 </style>
