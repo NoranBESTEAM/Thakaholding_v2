@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="col-6 p-md-0">
                                     <div class="card-body p-0">
-                                        <span class="num" data-val="40">00</span>
+                                        <span class="num" data-val="150">00</span>
                                         <h6 class="mb-0">شريك</h6>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="col-6 p-md-0">
                                     <div class="card-body p-0">
-                                        <span class="num" data-val="100">00</span>
+                                        <span class="num" data-val="500">00</span>
                                         <h6 class="mb-0">إستشارة</h6>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="col-6 p-md-0">
                                     <div class="card-body p-0">
-                                        <span class="num" data-val="25">00</span>
+                                        <span class="num" data-val="100">00</span>
                                         <h6 class="mb-0">استثمار</h6>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@
                                 </div>
                                 <div class="col-6 p-md-0">
                                     <div class="card-body p-0">
-                                        <span class="num" data-val="200">00</span>
+                                        <span class="num" data-val="800">00</span>
                                         <h6 class="mb-0">مستفيد</h6>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="card-body p-0">
-                                                <span class="num" data-val="40">00</span>
+                                                <span class="num" data-val="150">00</span>
                                                 <h6 class="mb-0">شريك</h6>
                                             </div>
                                         </div>
@@ -189,7 +189,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="card-body p-0">
-                                                <span class="num" data-val="100">00</span>
+                                                <span class="num" data-val="500">00</span>
                                                 <h6 class="mb-0">إستشارة</h6>
                                             </div>
                                         </div>
@@ -213,7 +213,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="card-body p-0">
-                                                <span class="num" data-val="25">00</span>
+                                                <span class="num" data-val="100">00</span>
                                                 <h6 class="mb-0">استثمار</h6>
                                             </div>
                                         </div>
@@ -237,7 +237,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="card-body p-0">
-                                                <span class="num" data-val="200">00</span>
+                                                <span class="num" data-val="800">00</span>
                                                 <h6 class="mb-0">مستفيد</h6>
                                             </div>
                                         </div>
@@ -311,7 +311,7 @@ export default {
                         if (inc[i] != count[i].getAttribute("data-val")) {
                             inc[i]++;
                         }
-                        count[i].innerHTML = inc[i];
+                        count[i].innerHTML = inc[i] + " + ";
                     }
 
                 } else {
@@ -328,7 +328,7 @@ export default {
 
                 }
 
-            }, 3000);
+            }, 1000);
 
         }
 
