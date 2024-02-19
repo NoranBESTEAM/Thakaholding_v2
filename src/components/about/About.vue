@@ -112,7 +112,7 @@ export default {
 
             var btmScreen = window.scrollY + window.innerHeight;
 
-            if (btmScreen > topElem && topScreen < btmElem) {
+            if (btmScreen > topElem || topScreen < btmElem) {
 
                 intervalFunc();
                 
