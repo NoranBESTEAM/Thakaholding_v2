@@ -12,90 +12,185 @@
                     data-wow-delay="0.1s">ذكاء القابضة شريك موثوق واستراتيجي للمؤسسات الحكومية والخاصة
                     معًا نستطيع أن نكون القوة الدافعة وراء مستقبل التقنية والابتكار في المنطقة </p>
 
-                <div id="content_wrapper" class="mt-4 p-3 wow animate__animated animate__slideInUp animate__slower"
-                    data-wow-offset="1" data-wow-delay="0.1s">
+                <!-- https://www.youtube.com/watch?v=3AWNCldVaH0 -->
+                <!-- https://picsum.photos/ -->
 
-                    <div class="row row-cols-3 row-cols-lg-5 g-3 d-flex justify-content-center">
+                <div id="carouselAssociateSlidesOnly" class="carousel slide carousel-fade wow animate__animated animate__slideInUp animate__slower" data-bs-ride="carousel" data-wow-offset="1" data-wow-delay="0.1s">
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_1.webp" alt="">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item associate-item active">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_1.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_2.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_2.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_3.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_3.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_4.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_4.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_5.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_5.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_6.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_6.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_7.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_7.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_8.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_8.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_9.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_9.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_10.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_10.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_11.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_11.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_12.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_12.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="logo_wrapper">
-                                <img src="@/assets/images/home/logo_associate_13.webp" alt="">
+                        <div class="carousel-item associate-item">
+                            <div class="col col-md-4 col-lg-3 col-xxl-2">
+                                <div class="card">
+                                    <div class="card-body px-0">
+                                        <div class="logo_wrapper">
+                                            <img src="@/assets/images/home/logo_associate_13.webp" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                     </div>
+
+                    <!-- Create next or prev button -->
+
+                    <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAssociateSlidesOnly"
+                        data-bs-slide="next">
+                        <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                    </button>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAssociateSlidesOnly"
+                        data-bs-slide="prev">
+                        <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                    </button>
 
                 </div>
 
@@ -107,43 +202,170 @@
 </template>
 
 <script>
+
 import WOW from "wow.js";
+
 export default {
+
     name: 'Associate',
-    mounted() {
-        new WOW().init();
+
+    data() {
+        return {
+            windowWidth: window.innerWidth,
+        }
     },
+
+    mounted() {
+
+        new WOW().init();
+
+        // For Carousel
+
+        
+
+        var items = document.querySelectorAll('.carousel .associate-item');
+
+        // show 6 image at a one time in Extra extra large screen
+
+        if (this.windowWidth >= 1400) {
+
+            const slide = 6;
+
+            items.forEach((e) => {
+
+                let next = e.nextElementSibling;
+
+                for (var i = 0; i < slide; i++) {
+
+                    if (!next) {
+                        next = items[0];
+                    }
+
+                    let cloneChild = next.cloneNode(true);
+
+                    e.appendChild(cloneChild.children[0]);
+
+                    next = next.nextElementSibling;
+
+                }
+
+            });
+
+        }
+
+        // show 4 image at a one time in Extra large screen and large screen
+
+        if (this.windowWidth >= 992) {
+
+            const slide = 4;
+
+            items.forEach((e) => {
+
+                let next = e.nextElementSibling;
+
+                for (var i = 0; i < slide; i++) {
+
+                    if (!next) {
+                        next = items[0];
+                    }
+
+                    let cloneChild = next.cloneNode(true);
+
+                    e.appendChild(cloneChild.children[0]);
+
+                    next = next.nextElementSibling;
+
+                }
+
+            });
+
+        }
+
+        // show 3 image at a one time in Medium screen
+
+        if (this.windowWidth >= 768) {
+
+            const slide = 3;
+
+            items.forEach((e) => {
+
+                let next = e.nextElementSibling;
+
+                for (var i = 0; i < slide; i++) {
+
+                    if (!next) {
+                        next = items[0];
+                    }
+
+                    let cloneChild = next.cloneNode(true);
+
+                    e.appendChild(cloneChild.children[0]);
+
+                    next = next.nextElementSibling;
+
+                }
+
+            });
+
+        }
+
+        // show 1 image at a one time in Small and Extra Small screen
+
+        if (this.windowWidth >= 375) {
+
+            const slide = 1;
+
+            items.forEach((e) => {
+
+                let next = e.nextElementSibling;
+
+                for (var i = 0; i < slide; i++) {
+
+                    if (!next) {
+                        next = items[0];
+                    }
+
+                    let cloneChild = next.cloneNode(true);
+
+                    e.appendChild(cloneChild.children[0]);
+
+                    next = next.nextElementSibling;
+
+                }
+
+            });
+
+        }
+
+    },
+
 }
 </script>
 
 <style lang="scss" scoped>
 #associate {
 
-    height: 490px;
+    height: 430px;
 
     @include breakpoints(x-small) {
-        height: 700px;
+        height: 530px;
     }
 
     @include breakpoints(small) {
-        height: 675px;
+        height: 500px;
     }
 
     @include breakpoints(medium) {
-        height: 675px;
+        height: 465px;
     }
 
     @include breakpoints(large) {
-        height: 530px;
+        height: 465px;
     }
 
     @include breakpoints(x-Large) {
-        height: 530px;
+        height: 465px;
     }
-
-    // https://www.w3schools.com/cssref/pr_background-image.php
-
-    /* The image used */
 
     background-image: url("@/assets/images/home/associate_bg.webp");
 
@@ -191,43 +413,110 @@ export default {
                 line-height: 180%;
             }
 
-            #content_wrapper {
+            #carouselAssociateSlidesOnly {
 
-                height: 234px;
+                .carousel-inner {
 
-                @include breakpoints(x-small) {
-                    height: 380px;
-                }
+                    width: 80%;
+                    margin: auto;
 
-                @include breakpoints(small) {
-                    height: 380px;
-                }
+                    .carousel-item {
 
-                @include breakpoints(medium) {
-                    height: 380px;
-                }
+                        .card {
 
-                border-radius: 8px;
-                border: 1px solid $White;
+                            background-color: $Black;
 
-                // margin-bottom: 80px;
+                            border: 0;
+                            border-radius: 0;
 
-                .row {
+                            .card-body {
 
-                    .col {
+                                margin: auto;
 
-                        .logo_wrapper {
+                                .logo_wrapper {
 
-                            height: 56px;
+                                    // width: 150px;
+                                    height: 150px;
+                                    text-align: center;
 
-                            img {
+                                    img {
+                                        width: 90%;
+                                        height: 90%;
+                                        object-fit: contain;
+                                    }
 
-                                width: 100%;
-                                height: 100%;
-                                object-fit: contain;
+                                }
 
                             }
 
+                        }
+
+                    }
+
+                    .carousel-item.active,
+                    .carousel-item-next,
+                    .carousel-item-prev {
+                        display: flex;
+                    }
+
+                    .carousel-item-end,
+                    .carousel-item-start {
+                        transform: translateX(0);
+                    }
+
+                }
+
+                // Control Buttons
+
+                .carousel-control-next,
+                .carousel-control-prev {
+                    svg {
+                        font-size: 24px;
+                        color: $White;
+                    }
+                }
+
+                .carousel-control-next {
+                    svg {
+                        margin-right: -50px;
+                    }
+                }
+
+                .carousel-control-prev {
+                    svg {
+                        margin-left: -50px;
+                    }
+                }
+
+                // In Large Screen
+
+                @media(min-width:768px) {
+                    .carousel-inner {
+
+                        .carousel-item-start.active,
+                        .carousel-item-prev {
+                            transform: translateX(25%);
+                        }
+
+                        .carousel-item-end.active,
+                        .carousel-item-next {
+                            transform: translateX(-25%);
+                        }
+                    }
+                }
+
+                // Mobile Screen
+
+                @media(max-width:768px) {
+
+                    .carousel-inner {
+
+                        .carousel-item>div {
+                            display: none;
+                        }
+
+                        .carousel-item>div:first-child {
+                            display: block;
                         }
 
                     }
