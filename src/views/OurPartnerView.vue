@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: 'PartnerView',
+    name: 'OurPartnerView',
 }
 </script>
 

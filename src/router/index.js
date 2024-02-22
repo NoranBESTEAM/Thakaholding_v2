@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import OurStoryView from '../views/OurStoryView.vue'
-import PartnerView from '../views/PartnerView.vue'
+import OurPartnerView from '../views/OurPartnerView.vue'
 import NewsView from '../views/NewsView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 
@@ -36,9 +36,9 @@ const routes = [
     }
   },
   {
-    path: '/partner',
-    name: 'partner',
-    component: PartnerView,
+    path: '/our-partner',
+    name: 'our-partner',
+    component: OurPartnerView,
     meta:{
       title: 'الشركات التابعة',
     }

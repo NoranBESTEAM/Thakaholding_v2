@@ -56,7 +56,7 @@
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'partner' }" class="nav-link">الشركات التابعة</router-link>
+                            <router-link :to="{ name: 'our-partner' }" class="nav-link">الشركات التابعة</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
