@@ -7,7 +7,7 @@
 
                 <div class="col-12 col-lg-8 my-auto">
 
-                    <div id="content_wrapper" class="wow animate__animated animate__slideInRight animate__slower"
+                    <div id="content_wrapper" class="wow animate__animated animate__slideInRight animate__slower pt-lg-3 pb-lg-3"
                         data-wow-offset="1" data-wow-delay="0.1s">
 
                         <h3>من نحن</h3>
