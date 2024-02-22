@@ -38,7 +38,7 @@
                         <router-link :to="{ name: 'about' }" class="text-reset">من نحن</router-link>
                     </p>
                     <p class="mb-2">
-                        <router-link :to="{ name: 'story' }" class="text-reset">قصتنا</router-link>
+                        <router-link :to="{ name: 'our-story' }" class="text-reset">قصتنا</router-link>
                     </p>
                     <p class="mb-2">
                         <router-link :to="{ name: 'partner' }" class="text-reset">الشركات التابعة</router-link>

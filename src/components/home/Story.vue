@@ -18,7 +18,7 @@
                             العالم
                         </p>
 
-                        <router-link :to="{ name: 'story' }" class="btn rounded border-0 mb-3 mb-lg-0">
+                        <router-link :to="{ name: 'our-story' }" class="btn rounded border-0 mb-3 mb-lg-0">
                             قصة ذكاء
                         </router-link>
 

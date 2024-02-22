@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
-import StoryView from '../views/StoryView.vue'
+import OurStoryView from '../views/OurStoryView.vue'
 import PartnerView from '../views/PartnerView.vue'
 import NewsView from '../views/NewsView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
@@ -28,9 +28,9 @@ const routes = [
     }
   },
   {
-    path: '/story',
-    name: 'story',
-    component: StoryView,
+    path: '/our-story',
+    name: 'our-story',
+    component: OurStoryView,
     meta:{
       title: 'قصتنا',
     }

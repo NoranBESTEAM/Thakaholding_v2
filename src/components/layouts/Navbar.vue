@@ -52,7 +52,7 @@
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'story' }" class="nav-link">قصتنا</router-link>
+                            <router-link :to="{ name: 'our-story' }" class="nav-link">قصتنا</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
