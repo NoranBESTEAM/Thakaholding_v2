@@ -23,6 +23,10 @@
     <BusinessIncubators />
     <!-- End BusinessIncubators -->
 
+    <!-- Start ThakaInternational -->
+    <ThakaInternational />
+    <!-- End ThakaInternational -->
+
     <!-- Start Footer -->
     <Footer />
     <!-- End Footer -->
@@ -35,6 +39,7 @@ import Kudratek from '@/components/our_partner/Kudratek.vue';
 import Robotera from '@/components/our_partner/Robotera.vue';
 import InformationTechnology from '@/components/our_partner/InformationTechnology.vue';
 import BusinessIncubators from '@/components/our_partner/BusinessIncubators.vue';
+import ThakaInternational from '@/components/our_partner/ThakaInternational.vue';
 export default {
     name: 'OurPartnerView',
     components: {
@@ -42,7 +47,8 @@ export default {
         Kudratek,
         Robotera,
         InformationTechnology,
-        BusinessIncubators
+        BusinessIncubators,
+        ThakaInternational,
     }
 }
 </script>
