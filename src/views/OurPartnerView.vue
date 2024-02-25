@@ -15,6 +15,10 @@
     <Robotera />
     <!-- End Robotera -->
 
+    <!-- Start InformationTechnology -->
+    <InformationTechnology />
+    <!-- End InformationTechnology -->
+
     <!-- Start Footer -->
     <Footer />
     <!-- End Footer -->
@@ -25,12 +29,14 @@
 import OurPartner from '@/components/our_partner/OurPartner.vue';
 import Kudratek from '@/components/our_partner/Kudratek.vue';
 import Robotera from '@/components/our_partner/Robotera.vue';
+import InformationTechnology from '@/components/our_partner/InformationTechnology.vue';
 export default {
     name: 'OurPartnerView',
     components: {
         OurPartner,
         Kudratek,
         Robotera,
+        InformationTechnology,
     }
 }
 </script>
