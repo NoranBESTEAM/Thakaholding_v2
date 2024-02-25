@@ -11,6 +11,10 @@
     <Kudratek />
     <!-- End Kudratek -->
 
+    <!-- Start Robotera -->
+    <Robotera />
+    <!-- End Robotera -->
+
     <!-- Start Footer -->
     <Footer />
     <!-- End Footer -->
@@ -20,11 +24,13 @@
 <script>
 import OurPartner from '@/components/our_partner/OurPartner.vue';
 import Kudratek from '@/components/our_partner/Kudratek.vue';
+import Robotera from '@/components/our_partner/Robotera.vue';
 export default {
     name: 'OurPartnerView',
     components: {
         OurPartner,
         Kudratek,
+        Robotera,
     }
 }
 </script>
