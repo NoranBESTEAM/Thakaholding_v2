@@ -5,54 +5,155 @@
 
             <div class="container">
 
-                <div id="partner_img_wrapper">
+                <div id="partner_img_wrapper" class="wow animate__animated animate__slideInDown animate__slower"
+                    data-wow-offset="1" data-wow-delay="0.1s">
                     <img src="@/assets/images/partner/kudratekWhiteImg.webp" alt="">
                 </div>
 
-                <p class="mt-4">قدراتك هي شركة تعليمية تقنية تهدف إلى تنمية القدرات البشرية وتطوير المهارات بأساليب تعليمية
+                <p class="mt-4 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1"
+                    data-wow-delay="0.1s">قدراتك هي شركة تعليمية تقنية تهدف إلى تنمية القدرات البشرية وتطوير المهارات
+                    بأساليب تعليمية
                     حديثة، نقدم
                     خدمات الإستشارات والتدريب كما نعمل على زيادة كفاءة مخرجات التعليم وتوفير الأدوات الفنية والعلمية
                     والتشغيل بناء على سياسات وأدلة تشغيلية واضحة.</p>
 
-                <h3 class="mt-5">خدمات قدراتك</h3>
+                <!-- In Large Screen -->
 
-                <a href="https://quduratech.com/#/" class="btn rounded border-0">الذهاب إلى الموقع</a>
+                <div class="title mt-5 d-none d-md-flex">
 
-                <!-- <div class="clear"></div> -->
+                    <h3 class="my-auto wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1"
+                        data-wow-delay="0.1s">خدمات قدراتك</h3>
 
-                <div id="content_wrapper" class="mt-4">
+                    <a href="https://quduratech.com/#/"
+                        class="btn rounded border-0 wow animate__animated animate__slideInLeft animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">الذهاب إلى الموقع</a>
 
-                    <div class="service_ele">
+                </div>
+
+                <div id="content_wrapper" class="mt-4 d-none d-md-flex">
+
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                        data-wow-delay="0.1s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/kudratekTraining.webp" alt="">
                         </div>
+                        <h5 class="mt-4 mb-0">التدريب</h5>
                     </div>
 
-                    <div class="service_ele">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                        data-wow-delay="0.3s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/kudratekConsult.webp" alt="">
                         </div>
+                        <h5 class="mt-4 mb-0">الإستشارات</h5>
                     </div>
 
-                    <div class="service_ele">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                        data-wow-delay="0.5s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/kudratekCredits.webp" alt="">
                         </div>
+                        <h5 class="mt-4 mb-0">الاعتمادات</h5>
                     </div>
 
-                    <div class="service_ele">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                        data-wow-delay="0.7s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/kudratekEquipment.webp" alt="">
                         </div>
+                        <h5 class="mt-4 mb-0">التجهيزات</h5>
                     </div>
 
-                    <div class="service_ele">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                        data-wow-delay="0.9s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/kudratekEmployment.webp" alt="">
                         </div>
+                        <h5 class="mt-4 mb-0">التشغيل</h5>
                     </div>
 
                 </div>
+
+                <!-- In Small Screen -->
+
+                <div class="text-center mt-5 d-block d-md-none">
+                    <a href="https://quduratech.com/#/"
+                        class="btn rounded border-0 wow animate__animated animate__slideInRight animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">الذهاب إلى الموقع</a>
+                </div>
+
+                <h3 class="mt-3 d-block d-md-none wow animate__animated animate__slideInRight animate__slow"
+                    data-wow-offset="1" data-wow-delay="0.1s">خدمات قدراتك</h3>
+
+                <div id="carouselKudratekSlidesOnly" class="carousel slide d-block d-md-none mt-4" data-bs-ride="carousel">
+
+                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower" data-wow-offset="1"
+                        data-wow-delay="0.1s">
+
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="service_ele">
+                                <div class="image_wrapper">
+                                    <img src="@/assets/images/partner/kudratekTraining.webp" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0">التدريب</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="service_ele">
+                                <div class="image_wrapper">
+                                    <img src="@/assets/images/partner/kudratekConsult.webp" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0">الإستشارات</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="service_ele">
+                                <div class="image_wrapper">
+                                    <img src="@/assets/images/partner/kudratekCredits.webp" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0">الاعتمادات</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="service_ele">
+                                <div class="image_wrapper">
+                                    <img src="@/assets/images/partner/kudratekEquipment.webp" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0">التجهيزات</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="service_ele">
+                                <div class="image_wrapper">
+                                    <img src="@/assets/images/partner/kudratekEmployment.webp" alt="">
+                                </div>
+                                <h5 class="mt-4 mb-0">التشغيل</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                    <!-- Carousel controls -->
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKudratekSlidesOnly"
+                        data-bs-slide="next">
+                        <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                    </button>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKudratekSlidesOnly"
+                        data-bs-slide="prev">
+                        <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                    </button>
+
+                </div>
+
+
 
             </div>
 
@@ -74,7 +175,7 @@ export default {
 <style lang="scss" scoped>
 #kudratek {
 
-    height: 520px;
+    height: 512px;
 
     // https://www.w3schools.com/cssref/pr_background-image.php
 
@@ -96,21 +197,25 @@ export default {
 
     position: relative;
 
-    /* @include breakpoints(x-small) {
-        height: 550px;
+    @include breakpoints(x-small) {
+        height: 710px;
         background-image: url("@/assets/images/home/partner_bg_mobile.webp");
         background-position: left top;
     }
 
     @include breakpoints(small) {
-        height: 525px;
+        height: 670px;
         background-image: url("@/assets/images/home/partner_bg_mobile.webp");
         background-position: left top;
     }
 
     @include breakpoints(medium) {
-        height: 460px;
-    } */
+        height: 555px;
+    }
+
+    @include breakpoints(large) {
+        height: 525px;
+    }
 
     #layer {
 
@@ -148,6 +253,15 @@ export default {
                 line-height: 180%;
             }
 
+            // In Large Screen
+
+            .title {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
             h3 {
                 font-family: 'FFShamelFamily-Bold';
                 color: $White;
@@ -165,21 +279,17 @@ export default {
                 font-style: normal;
                 font-weight: 400;
                 line-height: 180%;
-
-                // float: left;
+                transition: background 1s ease-in;
 
                 &:hover {
                     background: $Linear-Blue;
                     background-clip: padding-box;
                     -webkit-background-clip: padding-box;
                     -webkit-text-fill-color: $White;
-                    transition: background 1s ease-in;
                 }
             }
 
             #content_wrapper {
-
-                margin-bottom: 40px;
 
                 .service_ele {
 
@@ -193,32 +303,80 @@ export default {
 
                     padding: 24px 32px;
 
-                    /* @include breakpoints(medium) {
+                    @include breakpoints(medium) {
                         padding: 12px 16px;
                     }
 
                     @include breakpoints(large) {
                         padding: 12px 16px;
-                    } */
+                    }
 
                     background-color: $Light-Primary;
                     box-shadow: 0px 4px 4px 0px $Box-Shadow;
 
-                    .image_wrapper {
+                }
 
-                        height: 80px;
+            }
 
-                        /* @include breakpoints(medium) {
-                            height: 80px;
-                        } */
+            .image_wrapper {
 
-                        img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: contain;
+                height: 80px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            h5 {
+                font-family: 'FFShamelFamily-Bold';
+                color: $Black;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 156%;
+                text-align: center;
+            }
+
+            // In Small Screen
+
+            #carouselKudratekSlidesOnly {
+
+                .carousel-inner {
+
+                    .carousel-item {
+
+                        .service_ele {
+                            width: 70%;
+                            margin: auto;
+                            background-color: $Light-Primary;
+                            box-shadow: 0px 4px 4px 0px $Box-Shadow;
+                            padding: 28px 32px;
                         }
+
                     }
 
+                }
+
+                .carousel-control-next,
+                .carousel-control-prev {
+                    svg {
+                        font-size: 24px;
+                        color: $White;
+                    }
+                }
+
+                .carousel-control-next {
+                    svg {
+                        margin-right: -50px;
+                    }
+                }
+
+                .carousel-control-prev {
+                    svg {
+                        margin-left: -50px;
+                    }
                 }
 
             }
@@ -227,5 +385,4 @@ export default {
 
     }
 
-}
-</style>
+}</style>
