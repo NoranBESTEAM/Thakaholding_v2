@@ -7,6 +7,10 @@
     <OurPartner />
     <!-- End OurPartner -->
 
+    <!-- Start Kudratek -->
+    <Kudratek />
+    <!-- End Kudratek -->
+
     <!-- Start Footer -->
     <Footer />
     <!-- End Footer -->
@@ -15,10 +19,12 @@
 
 <script>
 import OurPartner from '@/components/our_partner/OurPartner.vue';
+import Kudratek from '@/components/our_partner/Kudratek.vue';
 export default {
     name: 'OurPartnerView',
     components: {
         OurPartner,
+        Kudratek,
     }
 }
 </script>
