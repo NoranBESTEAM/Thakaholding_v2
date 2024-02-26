@@ -60,7 +60,7 @@
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'news' }" class="nav-link">الأخبار</router-link>
+                            <router-link :to="{ name: 'our-news' }" class="nav-link">الأخبار</router-link>
                         </li>
 
                     </ul>

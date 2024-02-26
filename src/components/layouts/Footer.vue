@@ -44,7 +44,7 @@
                         <router-link :to="{ name: 'our-partner' }" class="text-reset">الشركات التابعة</router-link>
                     </p>
                     <p class="mb-0">
-                        <router-link :to="{ name: 'news' }" class="text-reset">الأخبار</router-link>
+                        <router-link :to="{ name: 'our-news' }" class="text-reset">الأخبار</router-link>
                     </p>
                 </div>
 

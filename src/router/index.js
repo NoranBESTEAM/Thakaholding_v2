@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import OurStoryView from '../views/OurStoryView.vue'
 import OurPartnerView from '../views/OurPartnerView.vue'
-import NewsView from '../views/NewsView.vue'
+import OurNewsView from '../views/OurNewsView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 
 const routes = [
@@ -44,9 +44,9 @@ const routes = [
     }
   },
   {
-    path: '/news',
-    name: 'news',
-    component: NewsView,
+    path: '/our-news',
+    name: 'our-news',
+    component: OurNewsView,
     meta:{
       title: 'الأخبار',
     }

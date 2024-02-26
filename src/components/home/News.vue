@@ -8,7 +8,7 @@
 
             <div id="show_more" class="wow animate__animated animate__slideInLeft animate__slower" data-wow-offset="1"
                 data-wow-delay="0.1s">
-                <router-link :to="{ name: 'news' }" class="btn border-0">عرض المزيد</router-link>
+                <router-link :to="{ name: 'our-news' }" class="btn border-0">عرض المزيد</router-link>
             </div>
 
             <div class="clear"></div>
