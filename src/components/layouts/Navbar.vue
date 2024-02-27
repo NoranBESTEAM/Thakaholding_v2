@@ -60,7 +60,11 @@
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'our-news' }" class="nav-link">الأخبار</router-link>
+                            <router-link :to="{ name: 'our-news' }" class="nav-link" :class="{
+                                'router-link-exact-active':
+                                    this.$store.getters.getPage === 'our-news' ||
+                                    this.$store.getters.getPage === 'news-desc'
+                            }">الأخبار</router-link>
                         </li>
 
                     </ul>

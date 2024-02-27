@@ -17,7 +17,10 @@ export default {
     name: 'OurNewsView',
     components: {
         OurNews,
-    }
+    },
+    created() {
+        this.$store.commit("setPage", "our-news");
+    },
 }
 </script>
 

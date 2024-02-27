@@ -19,7 +19,10 @@ export default {
     name: 'NewsDescView',
     components: {
         NewsDesc,
-    }
+    },
+    created() {
+        this.$store.commit("setPage", "news-desc");
+    },
 }
 </script>
 

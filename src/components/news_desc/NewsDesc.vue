@@ -10,11 +10,11 @@
                     <div class="img_layer"></div>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body p-0">
 
-                    <h5 class="card-title wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1" data-wow-delay="0.1s">اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي</h5>
+                    <h5 class="card-title mt-4 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1" data-wow-delay="0.1s">اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي</h5>
 
-                    <p class="card-text wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1" data-wow-delay="0.1s">اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعية ونصت مجالات الشراكة على
+                    <p class="card-text mt-4 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1" data-wow-delay="0.1s">اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعية ونصت مجالات الشراكة على
                         تنفيذ الهاكاثونات والبرامج والمسابقات النوعية والعلمية - تسويق البرامج والمشاريع المشتركة - إعداد
                         خطط استراتيجية واستشارات في مجال تطوير القدرات والابتكار وريادة الأعمال<br /><br />اتفاقية شراكة بين
                         ذكاء
