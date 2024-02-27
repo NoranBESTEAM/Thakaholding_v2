@@ -306,7 +306,6 @@ export default {
                         // box-shadow: 0 -16px 0 $Dark-Primary, -16px 0 0 $Dark-Primary;
                         // box-shadow: 0 -16px 0 $Dark-Primary;
                         border-top: 16px solid $White;
-                        ;
                         border-right: 16px solid $White;
                     }
                 }

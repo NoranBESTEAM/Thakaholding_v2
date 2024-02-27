@@ -1,5 +1,4 @@
 <template>
-
     <div id="our_news">
 
         <div class="container">
@@ -32,7 +31,6 @@
         </div>
 
     </div>
-
 </template>
 
 <script>
@@ -259,10 +257,19 @@ export default {
                     .card-body {
 
                         height: 90px;
+
+                        @include breakpoints(large) {
+                            height: 116px;
+                        }
+
+                        @include breakpoints(x-Large) {
+                            height: 116px;
+                        }
+
                         .card-title {
                             font-family: 'FFShamelFamily-Bold';
                             color: $Dark-Primary;
-                            text-align: justify;
+                            // text-align: justify;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
