@@ -220,17 +220,21 @@ export default {
                     // border: none;
                     border-radius: 0;
 
+                    @include breakpoints(x-small) {
+                        width: calc(100% - 16px);
+                    }
+
+                    @include breakpoints(small) {
+                        width: calc(50% - 16px);
+                    }
+
+                    @include breakpoints(medium) {
+                        width: calc(50% - 16px);
+                    }
+
                     .img_wrapper {
 
                         position: relative;
-
-                        // width: 318px;
-                        // height: 287.4px;
-
-                        /* @include breakpoints(x-Large) {
-                            width: 273px;
-                            height: 295.367px;
-                        } */
 
                         img {
                             width: 100%;
@@ -257,6 +261,10 @@ export default {
                     .card-body {
 
                         height: 90px;
+
+                        @include breakpoints(small) {
+                            height: 116px;
+                        }
 
                         @include breakpoints(large) {
                             height: 116px;
