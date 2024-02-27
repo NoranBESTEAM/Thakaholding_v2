@@ -7,7 +7,9 @@
 
                 <div class="cards">
 
-                    <div v-for="card in section.cards" :key="card.id" class="card h-100 border-0">
+                    <div v-for="card in section.cards" :key="card.id"
+                        class="card h-100 border-0 wow animate__animated animate__slideInRight animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">
 
                         <div class="img_wrapper">
                             <img :src="card.imageUrl" class="card-img-top" alt="Card Image">
@@ -25,7 +27,8 @@
             </div>
 
             <div class="btnContainer mt-4">
-                <button @click="showMore" class="border-0">عرض المزيد</button>
+                <button @click="showMore" class="border-0 wow animate__animated animate__heartBeat animate__slower"
+                    data-wow-offset="1" data-wow-delay="0.1s">عرض المزيد</button>
             </div>
 
         </div>
@@ -322,5 +325,4 @@ export default {
 
     }
 
-}
-</style>
+}</style>
