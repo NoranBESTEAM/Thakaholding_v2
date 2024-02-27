@@ -17,7 +17,9 @@
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">{{ card.titleContent }}</h5>
+                            <router-link :to="{ name: 'news-desc' }" class="btn border-0 p-0">
+                                <h5 class="card-title">{{ card.titleContent }}</h5>
+                            </router-link>
                         </div>
 
                     </div>
@@ -325,4 +327,5 @@ export default {
 
     }
 
-}</style>
+}
+</style>

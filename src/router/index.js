@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import OurStoryView from '../views/OurStoryView.vue'
 import OurPartnerView from '../views/OurPartnerView.vue'
 import OurNewsView from '../views/OurNewsView.vue'
+import NewsDescView from '../views/NewsDescView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
 
 const routes = [
@@ -47,6 +48,14 @@ const routes = [
     path: '/our-news',
     name: 'our-news',
     component: OurNewsView,
+    meta:{
+      title: 'الأخبار',
+    }
+  },
+  {
+    path: '/news-desc',
+    name: 'news-desc',
+    component: NewsDescView,
     meta:{
       title: 'الأخبار',
     }
