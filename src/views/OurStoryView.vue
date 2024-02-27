@@ -1,13 +1,13 @@
 <template>
     <!-- import navbar in main.js file -->
-    <Navbar />
+    <Navbar id="storyNavbar" />
 
     <!-- Start OurStory -->
     <OurStory />
     <!-- End OurStory -->
 
     <!-- Start Footer -->
-    <Footer />
+    <Footer id="storyFooter" />
     <!-- End Footer -->
 </template>
 
@@ -21,4 +21,23 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+#storyNavbar {
+
+    background-color: $Black !important;
+
+}
+
+#storyFooter {
+
+    @media only screen and (min-width: 992px){
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+</style>

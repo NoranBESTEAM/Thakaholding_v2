@@ -1,7 +1,7 @@
 <template>
 
   <!-- import navbar in main.js file -->
-  <Navbar />
+  <Navbar id="aboutNavbar"/>
 
   <!-- Start About -->
   <About />
@@ -35,4 +35,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#aboutNavbar{
+  background-color: $Black !important;
+}
+</style>

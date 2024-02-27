@@ -1,4 +1,5 @@
 <template>
+
     <div id="our_news">
 
         <div class="container">
@@ -7,9 +8,12 @@
 
                 <div class="cards">
 
-                    <div v-for="card in section.cards" :key="card.id" class="card">
+                    <div v-for="card in section.cards" :key="card.id" class="card h-100 border-0">
 
-                        <img :src="card.imageUrl" class="card-img-top" alt="Card Image">
+                        <div class="img_wrapper">
+                            <img :src="card.imageUrl" class="card-img-top" alt="Card Image">
+                            <div class="img_layer"></div>
+                        </div>
 
                         <div class="card-body">
                             <h5 class="card-title">{{ card.titleContent }}</h5>
@@ -22,19 +26,26 @@
             </div>
 
             <div class="btnContainer mt-4">
-                <button @click="showMore">عرض المزيد</button>
+                <button @click="showMore" class="border-0">عرض المزيد</button>
             </div>
 
         </div>
 
     </div>
+
 </template>
 
 <script>
 
+import WOW from "wow.js";
+
 export default {
 
     name: 'OurNews',
+
+    mounted() {
+        new WOW().init();
+    },
 
     data() {
 
@@ -63,12 +74,7 @@ export default {
                             id: 4,
                             imageUrl: require('../../assets/images/home/news_img_3.webp'),
                             titleContent: "دورة تحكيم وزارة النقل",
-                        }
-                    ]
-                },
-                {
-                    visible: false,
-                    cards: [
+                        },
                         {
                             id: 5,
                             imageUrl: require('../../assets/images/home/news_img_2.webp'),
@@ -88,12 +94,7 @@ export default {
                             id: 8,
                             imageUrl: require('../../assets/images/home/news_img_3.webp'),
                             titleContent: "دورة تحكيم وزارة النقل",
-                        }
-                    ]
-                },
-                {
-                    visible: false,
-                    cards: [
+                        },
                         {
                             id: 9,
                             imageUrl: require('../../assets/images/home/news_img_2.webp'),
@@ -111,6 +112,56 @@ export default {
                         },
                         {
                             id: 12,
+                            imageUrl: require('../../assets/images/home/news_img_3.webp'),
+                            titleContent: "دورة تحكيم وزارة النقل",
+                        },
+                    ]
+                },
+                {
+                    visible: false,
+                    cards: [
+                        {
+                            id: 13,
+                            imageUrl: require('../../assets/images/home/news_img_2.webp'),
+                            titleContent: "توقيع مذكرة تفاهم بين Area9 Lyceum & Thaka Holding ",
+                        },
+                        {
+                            id: 14,
+                            imageUrl: require('../../assets/images/home/news_img_1.webp'),
+                            titleContent: "اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي",
+                        },
+                        {
+                            id: 15,
+                            imageUrl: require('../../assets/images/home/news_img_1.webp'),
+                            titleContent: "اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي",
+                        },
+                        {
+                            id: 16,
+                            imageUrl: require('../../assets/images/home/news_img_3.webp'),
+                            titleContent: "دورة تحكيم وزارة النقل",
+                        },
+                    ]
+                },
+                {
+                    visible: false,
+                    cards: [
+                        {
+                            id: 17,
+                            imageUrl: require('../../assets/images/home/news_img_2.webp'),
+                            titleContent: "توقيع مذكرة تفاهم بين Area9 Lyceum & Thaka Holding ",
+                        },
+                        {
+                            id: 18,
+                            imageUrl: require('../../assets/images/home/news_img_1.webp'),
+                            titleContent: "اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي",
+                        },
+                        {
+                            id: 19,
+                            imageUrl: require('../../assets/images/home/news_img_1.webp'),
+                            titleContent: "اتفاقية شراكة بين ذكاء القابضة و جمعية المسئوولية المجتمعي",
+                        },
+                        {
+                            id: 20,
                             imageUrl: require('../../assets/images/home/news_img_3.webp'),
                             titleContent: "دورة تحكيم وزارة النقل",
                         }
@@ -146,13 +197,11 @@ export default {
     padding-top: 112px;
     padding-bottom: 40px;
 
-    background-color: $Light-Primary;
+    background-color: $White;
 
     .container {
 
         .card-section {
-
-            margin-bottom: 16px;
 
             .cards {
 
@@ -163,27 +212,57 @@ export default {
 
                     background-color: $Light-Primary;
                     box-shadow: 0px 4px 4px 0px $Box-Shadow;
-                    filter: brightness(110%);
+                    // filter: brightness(110%);
 
                     width: calc(25% - 16px);
                     margin-left: 8px;
                     margin-right: 8px;
+                    margin-bottom: 16px;
 
-                    border: none;
+                    // border: none;
                     border-radius: 0;
 
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 0;
+                    .img_wrapper {
+
+                        position: relative;
+
+                        // width: 318px;
+                        // height: 287.4px;
+
+                        /* @include breakpoints(x-Large) {
+                            width: 273px;
+                            height: 295.367px;
+                        } */
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 0;
+                        }
+
+                        .img_layer {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 30%;
+                            height: 45%;
+                            // https://stackoverflow.com/questions/12671898/outline-on-only-one-border
+                            // box-shadow: 0 -16px 0 $Dark-Primary, -16px 0 0 $Dark-Primary;
+                            // box-shadow: 0 -16px 0 $Dark-Primary;
+                            border-top: 16px solid $Dark-Primary;
+                            border-right: 16px solid $Dark-Primary;
+                        }
+
                     }
 
                     .card-body {
+
+                        height: 90px;
                         .card-title {
                             font-family: 'FFShamelFamily-Bold';
                             color: $Dark-Primary;
-                            // text-align: justify;
+                            text-align: justify;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
@@ -206,7 +285,6 @@ export default {
             button {
                 background: $Primary;
                 padding: 5px 16px;
-                border: none;
                 border-radius: 8px;
                 color: $White;
                 font-size: 18px;
