@@ -1,6 +1,6 @@
 <template>
     <!-- import navbar in main.js file -->
-    <Navbar id="storyNavbar" />
+    <Navbar />
 
     <!-- Start OurStory -->
     <OurStory />
@@ -22,12 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-#storyNavbar {
-
-    background-color: $Black !important;
-
-}
 
 #storyFooter {
 

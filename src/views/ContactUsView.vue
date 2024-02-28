@@ -1,6 +1,6 @@
 <template>
     <!-- import navbar in main.js file -->
-    <Navbar id="contactNavbar" />
+    <Navbar />
 
     <!-- Start ContactUs -->
     <ContactUs />
@@ -21,10 +21,4 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-#contactNavbar {
-
-    background-color: $Black !important;
-
-}
-</style>
+<style scoped lang="scss"></style>

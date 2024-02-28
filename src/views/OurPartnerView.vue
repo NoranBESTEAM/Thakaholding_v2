@@ -1,7 +1,7 @@
 <template>
 
     <!-- import navbar in main.js file -->
-    <Navbar id="partnerNavbar"/>
+    <Navbar />
 
     <!-- Start OurPartner -->
     <OurPartner />
@@ -53,8 +53,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#partnerNavbar{
-    background-color: $Black !important;
-}
-</style>
+<style lang="scss" scoped></style>

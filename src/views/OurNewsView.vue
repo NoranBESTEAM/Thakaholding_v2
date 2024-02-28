@@ -1,6 +1,6 @@
 <template>
     <!-- import navbar in main.js file -->
-    <Navbar id="newsNavbar"/>
+    <Navbar />
 
     <!-- Start OurNews -->
     <OurNews />
@@ -24,8 +24,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#newsNavbar{
-    background-color: $Black !important;
-}
-</style>
+<style lang="scss" scoped></style>

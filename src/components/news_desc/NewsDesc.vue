@@ -5,7 +5,7 @@
 
             <div class="card">
 
-                <div class="img_wrapper wow animate__animated animate__slideInDown animate__slower" data-wow-offset="1" data-wow-delay="0.1s">
+                <div class="img_wrapper wow animate__animated animate__fadeIn animate__slower" data-wow-offset="1" data-wow-delay="0.1s">
                     <img src="@/assets/images/home/news_img_1.webp" class="card-img-top" alt="Card Image">
                     <div class="img_layer"></div>
                 </div>
