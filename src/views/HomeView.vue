@@ -100,6 +100,10 @@ export default {
     }
   },
 
+  created() {
+    this.$store.commit("setPage", "home");
+  },
+
 }
 
 </script>

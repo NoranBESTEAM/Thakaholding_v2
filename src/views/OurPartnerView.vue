@@ -1,5 +1,4 @@
 <template>
-
     <!-- import navbar in main.js file -->
     <NavbarGeneral />
 
@@ -30,7 +29,6 @@
     <!-- Start Footer -->
     <Footer />
     <!-- End Footer -->
-    
 </template>
 
 <script>
@@ -49,7 +47,10 @@ export default {
         InformationTechnology,
         BusinessIncubators,
         ThakaInternational,
-    }
+    },
+    created() {
+        this.$store.commit("setPage", "our-partner");
+    },
 }
 </script>
 

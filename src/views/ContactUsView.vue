@@ -17,7 +17,10 @@ export default {
     name: 'ContactUsView',
     components: {
         ContactUs,
-    }
+    },
+    created() {
+        this.$store.commit("setPage", "contact-us");
+    },
 }
 </script>
 

@@ -17,15 +17,17 @@ export default {
     name: 'OurStoryView',
     components: {
         OurStory,
-    }
+    },
+    created() {
+        this.$store.commit("setPage", "our-story");
+    },
 }
 </script>
 
 <style lang="scss" scoped>
-
 #storyFooter {
 
-    @media only screen and (min-width: 992px){
+    @media only screen and (min-width: 992px) {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -33,5 +35,4 @@ export default {
     }
 
 }
-
 </style>

@@ -1,5 +1,4 @@
 <template>
-
   <!-- import navbar in main.js file -->
   <NavbarGeneral />
 
@@ -18,7 +17,6 @@
   <!-- Start Footer -->
   <Footer />
   <!-- End Footer -->
-  
 </template>
 
 <script>
@@ -31,7 +29,10 @@ export default {
     About,
     Vision,
     Valuable,
-  }
+  },
+  created() {
+    this.$store.commit("setPage", "about");
+  },
 }
 </script>
 

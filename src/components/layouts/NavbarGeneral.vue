@@ -43,20 +43,31 @@
                     <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'home' }" class="nav-link" aria-current="page"
-                                exact>الرئيسية</router-link>
+                            <router-link :to="{ name: 'home' }" class="nav-link" aria-current="page" exact :class="{
+                                'router-link-exact-active':
+                                    this.$store.getters.getPage === 'home'
+                            }">الرئيسية</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'about' }" class="nav-link">من نحن</router-link>
+                            <router-link :to="{ name: 'about' }" class="nav-link" :class="{
+                                'router-link-exact-active':
+                                    this.$store.getters.getPage === 'about'
+                            }">من نحن</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'our-story' }" class="nav-link">قصتنا</router-link>
+                            <router-link :to="{ name: 'our-story' }" class="nav-link" :class="{
+                                'router-link-exact-active':
+                                    this.$store.getters.getPage === 'our-story'
+                            }">قصتنا</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
-                            <router-link :to="{ name: 'our-partner' }" class="nav-link">الشركات التابعة</router-link>
+                            <router-link :to="{ name: 'our-partner' }" class="nav-link" :class="{
+                                'router-link-exact-active':
+                                    this.$store.getters.getPage === 'our-partner'
+                            }">الشركات التابعة</router-link>
                         </li>
 
                         <li class="nav-item mx-2">
@@ -75,7 +86,10 @@
                             <font-awesome-icon :icon="['fas', 'fa-earth-europe']" class="me-2 text-white" />
                         </router-link>
                         <!-- mt-2 mt-lg-0 -->
-                        <router-link :to="{ name: 'contact-us' }" class="btn rounded border-0">
+                        <router-link :to="{ name: 'contact-us' }" class="btn rounded border-0" :class="{
+                            'router-link-exact-active':
+                                this.$store.getters.getPage === 'contact-us'
+                        }">
                             <span>اتصل بنا</span>
                             <font-awesome-icon :icon="['fas', 'fa-phone']" class="me-2 text-white" />
                         </router-link>
