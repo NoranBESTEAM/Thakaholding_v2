@@ -102,13 +102,14 @@ export default {
             isDefaultImage: true,
             defaultImg: require('../../assets/images/navbar/logo_white.webp'),
             alternativeImg: require('../../assets/images/navbar/logo_dark.webp'),
+            windowHeight: window.innerHeight * 2,
         };
     },
     mounted() {
         document.addEventListener('scroll', () => {
             // https://stackoverflow.com/questions/24219702/struggling-with-classlist-add-and-getelementsbyclassname
             var element = document.getElementsByClassName('router-link-exact-active');
-            if (window.scrollY > 72) {
+            if (window.scrollY > this.windowHeight) {
                 for (var i = 0; i < element.length; i++) {
                     element[i].style.color = "#2198d5";
                 }
@@ -129,12 +130,12 @@ export default {
         handleScroll(event) {
             // Any code to be executed when the window is scrolled
             // console.log(window.scrollY);
-            if (window.scrollY > 72) {
+            if (window.scrollY > this.windowHeight) {
                 document.querySelector('nav').style.backgroundColor = "#071E2B";
                 document.getElementById('burgerBtn').style.color = "#2198d5";
                 return (this.isDefaultImage = false);
             }
-            if (window.scrollY <= 72) {
+            if (window.scrollY <= this.windowHeight) {
                 if (!this.defaultImage) {
                     document.querySelector('nav').style.backgroundColor = "transparent";
                     document.getElementById('burgerBtn').style.color = "#fff";
