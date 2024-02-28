@@ -1,7 +1,7 @@
 <template>
 
   <!-- import navbar in main.js file -->
-  <Navbar />
+  <NavbarGeneral />
 
   <!-- Start About -->
   <About />

@@ -1,6 +1,6 @@
 <template>
     <!-- import navbar in main.js file -->
-    <Navbar />
+    <NavbarGeneral />
 
     <!-- Start OurStory -->
     <OurStory />
