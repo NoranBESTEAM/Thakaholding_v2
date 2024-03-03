@@ -37,6 +37,15 @@ import NavbarGeneral from "@/components/layouts/NavbarGeneral.vue";
 // import Footer Component
 import Footer from "@/components/layouts/Footer.vue";
 
+// Swiper imports
+import SwiperClass, {EffectCube, Pagination } from 'swiper'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/css'
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination'
+// Use swiper modules
+SwiperClass.use([EffectCube, Pagination])
+
 //add icons to the library
 library.add(fas, far, fab);
 
@@ -49,5 +58,7 @@ app.component('Navbar', Navbar);
 app.component('NavbarGeneral', NavbarGeneral);
 // Add Footer Component
 app.component('Footer', Footer);
+// Add Swiper Component
+app.use(VueAwesomeSwiper)
 app.use(router);
 app.mount("#app");
