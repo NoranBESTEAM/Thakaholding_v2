@@ -38,13 +38,12 @@ import NavbarGeneral from "@/components/layouts/NavbarGeneral.vue";
 import Footer from "@/components/layouts/Footer.vue";
 
 // Swiper imports
-import SwiperClass, {EffectCube, Pagination } from 'swiper'
+import SwiperClass, { Pagination, Keyboard, Mousewheel, Autoplay } from 'swiper'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/css'
-import 'swiper/css/effect-cube';
 import 'swiper/css/pagination'
 // Use swiper modules
-SwiperClass.use([EffectCube, Pagination])
+SwiperClass.use([Pagination, Keyboard, Mousewheel, Autoplay])
 
 //add icons to the library
 library.add(fas, far, fab);
