@@ -7,17 +7,14 @@
 
                 <div class="col-12 col-lg-8 my-auto">
 
-                    <div id="content_wrapper"
-                        class="wow animate__animated animate__slideInRight animate__slower pt-lg-3 pb-lg-3"
+                    <div id="content_wrapper" class="wow animate__animated animate__slideInRight animate__slower pt-lg-3 pb-lg-3"
                         data-wow-offset="1" data-wow-delay="0.1s">
 
                         <h3>من نحن</h3>
 
-                        <p>شركة ذكاء القابضة، منظومة متكاملة في التعليم والتطوير والتصنيع والاستثمار في المجالات التي
-                            تواكب
+                        <p>شركة ذكاء القابضة، منظومة متكاملة في التعليم والتطوير والتصنيع والاستثمار في المجالات التي تواكب
                             الثورة الصناعية الرابعة والتقنيات المتقدمة. نؤمن بأهمية تمكين النشئ من مهارات القرن الحادي
-                            والعشرين والتأهيل لوظائف المستقبل، وتنمية الابتكار ولذلك نستثمر دائمًا في فرص مجالات
-                            المستقبل.
+                            والعشرين والتأهيل لوظائف المستقبل، وتنمية الابتكار ولذلك نستثمر دائمًا في فرص مجالات المستقبل.
                         </p>
 
                         <div id="counter_wrapper">
@@ -55,8 +52,8 @@
 
                 <div id="imgSec" class="col-12 col-lg-4 mt-3 mt-lg-0">
 
-                    <div id="img_wrapper" class="wow animate__animated animate__fadeIn animate__slower"
-                        data-wow-offset="1" data-wow-delay="0.3s">
+                    <div id="img_wrapper" class="wow animate__animated animate__fadeIn animate__slower" data-wow-offset="1"
+                        data-wow-delay="0.3s">
 
                         <img src="@/assets/images/about/about_img.webp" alt="">
 
@@ -87,41 +84,55 @@ export default {
 
         // https://www.youtube.com/watch?v=eMtebHRQaM4
 
-        // https://www.youtube.com/watch?v=PLsUdgLnzgQ
+        var aboutSec = document.getElementById("about");
 
-        let counts = document.querySelectorAll(".count");
+        var aboutCount = document.getElementsByClassName("count");
 
-        function startCounterFnc(el) {
+        var inc = [];
 
-            let aboutGoal = el.dataset.val;
+        function intervalFunc() {
+            for (let i = 0; i < aboutCount.length; i++) {
+                inc.push(1);
+                if (inc[i] != aboutCount[i].getAttribute("data-val")) {
+                    inc[i]++;
+                }
+                aboutCount[i].innerHTML = inc[i] + " + ";
+            }
+        }
 
-            let counter = setInterval(() => {
+        // window.onscroll = function () {
 
-                el.textContent++;
+        var counter = setInterval(() => {
 
-                if (el.textContent == aboutGoal) {
+            var topElem = aboutSec.offsetTop;
 
-                    clearInterval(counter);
+            var btmElem = aboutSec.offsetTop + aboutSec.clientHeight;
 
-                    let countText = parseFloat(el.textContent);
+            var topScreen = window.scrollY;
 
-                    countText = countText + ' +';
+            var btmScreen = window.scrollY + window.innerHeight;
 
-                    // console.log(countText);
+            if (btmScreen > topElem || topScreen < btmElem) {
 
-                    el.innerHTML = countText;
+                intervalFunc();
+                
+            } else {
+
+                clearInterval(counter);
+
+                for (let i = 0; i < aboutCount.length; i++) {
+
+                    aboutCount[i].innerHTML = '00';
+
+                    inc = [];
 
                 }
 
-            }, 3500 / aboutGoal);
+            }
 
-        }
+        }, 10);
 
-        counts.forEach((count) => {
-
-            startCounterFnc(count);
-
-        });
+        // };
 
     },
 

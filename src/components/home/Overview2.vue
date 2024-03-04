@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="col-6 p-md-0">
                                     <div class="card-body p-0">
-                                        <span class="num" data-val="100"> 00</span>
+                                        <span class="num" data-val="100">00</span>
                                         <h6 class="mb-0">مشروع</h6>
                                     </div>
                                 </div>
@@ -286,53 +286,88 @@ export default {
 
         // https://www.youtube.com/watch?v=eMtebHRQaM4
 
-        // https://www.youtube.com/watch?v=PLsUdgLnzgQ
+        var mainDiv = document.getElementById("overview");
 
-        let nums = document.querySelectorAll(".num");
-        let section = document.getElementById("overview");
-        let started = false; // Function Started ? No
+        var count = document.getElementsByClassName("num");
 
-        window.onscroll = function (){
+        var inc = [];
 
-            if (window.scrollY >= section.offsetTop) {
+        window.onscroll = function () {
 
-                if (!started) {
+            var counter = setInterval(() => {
 
-                    nums.forEach((num) => startCount(num));
+                var topElem = mainDiv.offsetTop;
 
-                }
+                var btmElem = mainDiv.offsetTop + mainDiv.clientHeight;
 
-                started = true;
+                var topScreen = window.scrollY;
 
-            }
+                var btmScreen = window.scrollY + window.innerHeight;
 
-        }
+                if (btmScreen > topElem || topScreen < btmElem) {
 
-        function startCount(el){
+                    for (let i = 0; i < count.length; i++) {
+                        inc.push(1);
+                        if (inc[i] != count[i].getAttribute("data-val")) {
+                            inc[i]++;
+                        }
+                        count[i].innerHTML = inc[i] + " + ";
+                    }
 
-            let goal = el.dataset.val;
+                } else {
 
-            let count = setInterval(() => {
+                    clearInterval(counter);
 
-                el.textContent++;
+                    for (let i = 0; i < count.length; i++) {
 
-                if (el.textContent == goal) {
+                        count[i].innerHTML = '00';
 
-                    clearInterval(count);
+                        inc = [];
 
-                    let numText = parseFloat(el.textContent);
-
-                    numText = numText + ' +';
-
-                    // console.log(numText);
-
-                    el.innerHTML = numText;
+                    }
 
                 }
 
-            }, 3500 / goal);
+            }, 1000);
 
         }
+
+
+        // https://www.youtube.com/watch?v=FaMW-CtExrs 
+
+        /* 
+
+            let valueDisplays = document.querySelectorAll(".num");
+
+            let interval = 5000;
+
+            // console.log(valueDisplays);
+
+            valueDisplays.forEach(valueDisplay => {
+
+                let startValue = 0;
+
+                let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+
+                // console.log(endValue);
+
+                let duration = Math.floor(interval / endValue);
+
+                let counter = setInterval(function () {
+
+                    startValue += 1;
+
+                    valueDisplay.textContent = startValue;
+
+                    if (startValue == endValue) {
+                        clearInterval(counter);
+                    }
+
+                }, duration);
+
+            });
+
+        */
 
     }
 
