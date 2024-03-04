@@ -17,9 +17,9 @@
                 <!-- https://github.com/surmon-china/vue-awesome-swiper -->
                 <!-- https://github.surmon.me/vue-awesome-swiper -->
 
+                <!-- :pagination="{ clickable: true, dynamicBullets: true }"  -->
                 <swiper dir="rtl" class="swiper mt-4" :modules="modules" :slides-per-view="5" :space-between="16"
-                    :loop="true" :pagination="{ clickable: true, dynamicBullets: true }" :grab-cursor="true"
-                    :keyboard="{ enabled: true }" :mousewheel="true"
+                    :loop="true" :grab-cursor="true" :keyboard="{ enabled: true }" :mousewheel="true"
                     :autoplay="{ delay: 2500, disableOnInteraction: false }" :breakpoints="{
                     '375': {
                         slidesPerView: 1,
@@ -48,55 +48,55 @@
                 }">
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_1.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_2.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_3.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_4.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_5.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_6.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_7.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_8.webp" alt="">
                         </div>
                     </swiper-slide>
 
                     <swiper-slide class="slide">
-                        <div class="image_wrapper mb-5">
+                        <div class="image_wrapper">
                             <img src="@/assets/images/home/logo_associate_9.webp" alt="">
                         </div>
                     </swiper-slide>
@@ -136,26 +136,26 @@ export default {
 <style lang="scss" scoped>
 #associate {
 
-    height: 360px;
+    height: 320px;
 
     @include breakpoints(x-small) {
-        height: 450px;
+        height: 410px;
     }
 
     @include breakpoints(small) {
-        height: 420px;
+        height: 380px;
     }
 
     @include breakpoints(medium) {
-        height: 395px;
+        height: 350px;
     }
 
     @include breakpoints(large) {
-        height: 395px;
+        height: 350px;
     }
 
     @include breakpoints(x-Large) {
-        height: 395px;
+        height: 350px;
     }
 
     background-image: url("@/assets/images/home/associate_bg.webp");
@@ -222,17 +222,6 @@ export default {
 
             }
 
-        }
-
-        .swiper-pagination-bullet {
-            width: 12px;
-            height: 12px;
-            background-color: #fff;
-            opacity: 1;
-        }
-
-        .swiper-pagination-bullet-active {
-            background-color: aqua !important;
         }
 
     }
