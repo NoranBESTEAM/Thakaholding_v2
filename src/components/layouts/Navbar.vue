@@ -144,12 +144,12 @@ export default {
         handleScroll(event) {
             // Any code to be executed when the window is scrolled
             // console.log(window.scrollY);
-            if (window.scrollY > this.windowHeight) {
+            if (window.scrollY >= this.windowHeight) {
                 document.querySelector('nav').style.backgroundColor = "#071E2B";
                 document.getElementById('burgerBtn').style.color = "#2198d5";
                 return (this.isDefaultImage = false);
             }
-            if (window.scrollY <= this.windowHeight) {
+            if (window.scrollY < this.windowHeight) {
                 if (!this.defaultImage) {
                     document.querySelector('nav').style.backgroundColor = "transparent";
                     document.getElementById('burgerBtn').style.color = "#fff";
