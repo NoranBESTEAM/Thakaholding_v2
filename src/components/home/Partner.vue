@@ -63,7 +63,7 @@
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="2000">
                             <div class="partner_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/home/international.webp" alt="">
@@ -71,7 +71,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <div class="partner_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/home/Kudratk.webp" alt="">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <div class="partner_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/home/robotera.webp" alt="">
@@ -87,7 +87,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <div class="partner_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/home/information_technology.webp" alt="">
@@ -95,7 +95,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <div class="partner_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/home/business_incubator.webp" alt="">
