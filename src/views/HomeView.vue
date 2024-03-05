@@ -136,7 +136,8 @@ export default {
     left: 0;
     width: 500px;
     height: 382px;
-    z-index: 1;
+    z-index: 3;
+    opacity: 0.2;
 
     @include breakpoints(x-small) {
       /* width: 300px;
