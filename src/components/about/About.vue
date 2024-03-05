@@ -103,13 +103,13 @@ export default {
 
                     clearInterval(counter);
 
-                    let countText = parseFloat(el.textContent);
+                    // let countText = parseFloat(el.textContent);
 
-                    countText = countText + ' +';
+                    // countText = countText + ' +';
 
-                    // console.log(countText);
+                    // // console.log(countText);
 
-                    el.innerHTML = countText;
+                    // el.innerHTML = countText;
 
                 }
 

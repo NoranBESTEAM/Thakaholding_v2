@@ -320,13 +320,13 @@ export default {
 
                     clearInterval(count);
 
-                    let numText = parseFloat(el.textContent);
+                    // let numText = parseFloat(el.textContent);
 
-                    numText = numText + ' +';
+                    // numText = numText + ' +';
 
-                    // console.log(numText);
+                    // // console.log(numText);
 
-                    el.innerHTML = numText;
+                    // el.innerHTML = numText;
 
                 }
 
