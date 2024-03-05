@@ -64,46 +64,41 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <div class="partner_ele" @mouseover="isDefaultImageOne = false"
-                                @mouseleave="isDefaultImageOne = true">
+                            <div class="partner_ele">
                                 <div class="image_wrapper">
-                                    <img :src="isDefaultImageOne ? defaultImgOne : alternativeImgOne" alt="">
+                                    <img src="@/assets/images/home/international.webp" alt="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="partner_ele" @mouseover="isDefaultImageTwo = false"
-                                @mouseleave="isDefaultImageTwo = true">
+                            <div class="partner_ele">
                                 <div class="image_wrapper">
-                                    <img :src="isDefaultImageTwo ? defaultImgTwo : alternativeImgTwo" alt="">
+                                    <img src="@/assets/images/home/Kudratk.webp" alt="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="partner_ele" @mouseover="isDefaultImageThree = false"
-                                @mouseleave="isDefaultImageThree = true">
+                            <div class="partner_ele">
                                 <div class="image_wrapper">
-                                    <img :src="isDefaultImageThree ? defaultImgThree : alternativeImgThree" alt="">
+                                    <img src="@/assets/images/home/robotera.webp" alt="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="partner_ele" @mouseover="isDefaultImageFour = false"
-                                @mouseleave="isDefaultImageFour = true">
+                            <div class="partner_ele">
                                 <div class="image_wrapper">
-                                    <img :src="isDefaultImageFour ? defaultImgFour : alternativeImgFour" alt="">
+                                    <img src="@/assets/images/home/information_technology.webp" alt="">
                                 </div>
                             </div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="10000">
-                            <div class="partner_ele" @mouseover="isDefaultImageFive = false"
-                                @mouseleave="isDefaultImageFive = true">
+                            <div class="partner_ele">
                                 <div class="image_wrapper">
-                                    <img :src="isDefaultImageFive ? defaultImgFive : alternativeImgFive" alt="">
+                                    <img src="@/assets/images/home/business_incubator.webp" alt="">
                                 </div>
                             </div>
                         </div>
@@ -317,11 +312,6 @@ export default {
                                     object-fit: contain;
                                 }
 
-                            }
-
-                            &:hover {
-                                background: $Linear-Blue;
-                                filter: drop-shadow(0px 4px 4px $Box-Shadow);
                             }
 
                         }
