@@ -28,7 +28,7 @@
 
             </div>
 
-            <div class="btnContainer mt-4">
+            <div class="btnContainer mt-4" v-if="showMoreBtn">
                 <button @click="showMore" class="border-0 wow animate__animated animate__heartBeat animate__slower"
                     data-wow-offset="1" data-wow-delay="0.1s">عرض المزيد</button>
             </div>
@@ -177,6 +177,8 @@ export default {
 
             nextSectionIndexToShow: 1,
 
+            showMoreBtn: true,
+
         };
 
     },
@@ -186,6 +188,14 @@ export default {
             if (this.nextSectionIndexToShow < this.sections.length) {
                 this.sections[this.nextSectionIndexToShow].visible = true;
                 this.nextSectionIndexToShow++;
+            }
+            // For Disappear showMore Button
+            // console.log(this.nextSectionIndexToShow);
+            // console.log(this.sections.length);
+            if (this.nextSectionIndexToShow == this.sections.length) {
+                // console.log("Finish");
+                this.showMoreBtn = false;
+                // console.log(this.showMoreBtn);
             }
         }
     }
