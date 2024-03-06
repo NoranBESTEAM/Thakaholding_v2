@@ -112,7 +112,7 @@
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="6000">
                             <div class="box">
                                 <div class="img_wrapper mb-3">
                                     <img src="@/assets/images/about/innovation_small.webp" alt="">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="6000">
                             <div class="box">
                                 <div class="img_wrapper mb-3">
                                     <img src="@/assets/images/about/responsibility_small.webp" alt="">
@@ -132,7 +132,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="6000">
                             <div class="box">
                                 <div class="img_wrapper mb-3">
                                     <img src="@/assets/images/about/partnership_small.webp" alt="">
@@ -142,7 +142,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="6000">
                             <div class="box">
                                 <div class="img_wrapper mb-3">
                                     <img src="@/assets/images/about/influence_small.webp" alt="">

@@ -9,8 +9,8 @@
 
                 <!-- https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
 
-                <nav class="navbar px-3 mb-3 wow animate__animated animate__backInDown animate__slower" data-wow-offset="1"
-                    data-wow-delay="0.1s">
+                <nav class="navbar px-3 mb-3 wow animate__animated animate__backInDown animate__slower"
+                    data-wow-offset="1" data-wow-delay="0.1s">
 
                     <ul class="nav nav-pills p-0">
 
@@ -28,13 +28,15 @@
 
                 </nav>
 
-                <div id="nav-desc" class="p-3 wow animate__animated animate__backInUp animate__slower" data-wow-offset="1"
-                    data-wow-delay="0.1s">
+                <div id="nav-desc" class="p-3 wow animate__animated animate__backInUp animate__slower"
+                    data-wow-offset="1" data-wow-delay="0.1s">
 
-                    <p id="firstDesc" class="visible">أن نكون الخيار والشريك الأول في مجال الخدمات التقنية والذكاء الاصطناعي
+                    <p id="firstDesc" class="visible">أن نكون الخيار والشريك الأول في مجال الخدمات التقنية والذكاء
+                        الاصطناعي
                         والاستشارات والتعليم والتطوير والتصنيع في المملكة العربية السعودية والعالم.</p>
 
-                    <p id="secondDesc" class="invisible">الاستثمار في فرص المستقبل وبناء علاقات طويلة الأمد مع الجهات القوية
+                    <p id="secondDesc" class="invisible">الاستثمار في فرص المستقبل وبناء علاقات طويلة الأمد مع الجهات
+                        القوية
                         والمؤثرة
                         داخل وخارج المملكة العربية السعودية.</p>
 
@@ -51,7 +53,7 @@
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="8000">
 
                             <div class="card">
 
@@ -72,7 +74,7 @@
 
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="8000">
 
                             <div class="card">
 
@@ -80,7 +82,8 @@
 
                                     <h5 class="card-title">رسالتنا</h5>
 
-                                    <p class="card-text mt-3">الاستثمار في فرص المستقبل وبناء علاقات طويلة الأمد مع الجهات
+                                    <p class="card-text mt-3">الاستثمار في فرص المستقبل وبناء علاقات طويلة الأمد مع
+                                        الجهات
                                         القوية
                                         والمؤثرة داخل وخارج المملكة العربية السعودية.</p>
 
@@ -205,7 +208,6 @@ export default {
     @include breakpoints(x-small) {
         background-image: url("@/assets/images/home/partner_bg_mobile.webp");
         background-position: left top;
-        // height: 275px;
         height: 350px;
     }
 
@@ -405,4 +407,5 @@ export default {
         }
 
     }
-}</style>
+}
+</style>
