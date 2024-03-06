@@ -7,15 +7,20 @@
 
                 <div class="col-12 col-lg-8 my-auto">
 
-                    <div id="content_wrapper" class="wow animate__animated animate__slideInRight animate__slower pt-lg-3 pb-lg-3"
+                    <div id="content_wrapper"
+                        class="wow animate__animated animate__slideInRight animate__slower pt-lg-3 pb-lg-3"
                         data-wow-offset="1" data-wow-delay="0.1s">
 
                         <h3>قصتنا</h3>
 
-                        <p class="mb-lg-0">تنطلق رحلة ذكاء القابضة من خلال التطوير والاستثمار، مجتمعين في رؤية واحدة، نحو قطاعات المستقبل.
-                            نقدم في شركة قدراتك خدمات التعليم والتدريب في مجالات التقنية والابتكار، لإعداد أجيال من المبدعين
-                            والمبتكرين. ثم استعنا بخدمات شركة ذكاء لتقنية المعلومات، ومجموعتها الواسعة من الخدمات التقنية
-                            وخدمات الذكاء الاصطناعي، لتوفير حلول تقنية مبتكرة تلبي احتياجات عملائنا. واكتملت رحلتنا بشركة
+                        <p class="mb-lg-0">تنطلق رحلة ذكاء القابضة من خلال التطوير والاستثمار، مجتمعين في رؤية واحدة،
+                            نحو قطاعات المستقبل.
+                            نقدم في شركة قدراتك خدمات التعليم والتدريب في مجالات التقنية والابتكار، لإعداد أجيال من
+                            المبدعين
+                            والمبتكرين. ثم استعنا بخدمات شركة ذكاء لتقنية المعلومات، ومجموعتها الواسعة من الخدمات
+                            التقنية
+                            وخدمات الذكاء الاصطناعي، لتوفير حلول تقنية مبتكرة تلبي احتياجات عملائنا. واكتملت رحلتنا
+                            بشركة
                             روبوتيرا، لنبدأ بها عصر الروبوتات، وتقديم حلول ذكية لمختلف المجالات. وأخيراً، قدمنا خبرات
                             السنوات الطويلة في المشاريع في ذكاء لحاضنات الأعمال، لندعم المشاريع الناشئة في مجال التقنية،
                             وخلق مستقبل أفضل للمملكة العربية السعودية والعالم.</p>
@@ -26,8 +31,8 @@
 
                 <div id="imgSec" class="col-12 col-lg-4 mt-3 mt-lg-0">
 
-                    <div id="img_wrapper" class="wow animate__animated animate__fadeIn animate__slower" data-wow-offset="1"
-                        data-wow-delay="0.3s">
+                    <div id="img_wrapper" class="wow animate__animated animate__fadeIn animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.3s">
 
                         <img src="@/assets/images/story/StoryImg.webp" alt="">
 
@@ -159,8 +164,8 @@ export default {
                 }
 
                 @include breakpoints(large) {
-                    width: 307px;
-                    height: 295px;
+                    width: 306px;
+                    height: 294px;
                 }
 
                 @include breakpoints(x-Large) {
@@ -184,6 +189,18 @@ export default {
                     // box-shadow: 0 -16px 0 $Dark-Primary, -16px 0 0 $Dark-Primary;
                     box-shadow: 0 -16px 0 $Dark-Primary;
                     border-left: 16px solid $Dark-Primary;
+
+                    @include breakpoints(x-small) {
+                        left: 0;
+                    }
+
+                    @include breakpoints(small) {
+                        left: 0;
+                    }
+
+                    @include breakpoints(medium) {
+                        left: 0;
+                    }
                 }
 
             }
