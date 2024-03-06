@@ -5,9 +5,11 @@
 
             <div class="row">
 
+                <h3 class="mb-4 d-block d-lg-none text-center">تواصل معنا</h3>
+
                 <div class="col-12 col-lg-7 order-2 order-lg-1 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1" data-wow-delay="0.1s">
 
-                    <h3 class="mt-3 me-3">تواصل معنا</h3>
+                    <h3 class="mt-3 me-3 d-none d-lg-block">تواصل معنا</h3>
 
                     <form class="p-3 border-none">
 
