@@ -196,13 +196,24 @@ export default {
                 #img_layer {
                     position: absolute;
                     top: 0;
-                    left: 0;
+                    left: -4px;
                     width: 40%;
                     height: 40%;
                     // https://stackoverflow.com/questions/12671898/outline-on-only-one-border
-                    // box-shadow: 0 -16px 0 $Dark-Primary, -16px 0 0 $Dark-Primary;
-                    border-top: 16px solid $Dark-Primary;
+                    box-shadow: 0 -16px 0 $Dark-Primary;
                     border-left: 16px solid $Dark-Primary;
+                    
+                    @include breakpoints(x-small) {
+                        left: 0;
+                    }
+
+                    @include breakpoints(small) {
+                        left: 0;
+                    }
+
+                    @include breakpoints(medium) {
+                        left: 0;
+                    }
                 }
 
             }
