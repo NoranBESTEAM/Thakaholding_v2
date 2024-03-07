@@ -29,7 +29,7 @@
 
                 <div id="content_wrapper" class="mt-4 d-none d-md-flex">
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="10"
                         data-wow-delay="0.1s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/buildingPartnerships.webp" alt="">
@@ -37,7 +37,7 @@
                         <h5 class="mt-4 mb-0">بناء الشراكات</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="10"
                         data-wow-delay="0.3s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/bringFinancing.webp" alt="">
@@ -45,7 +45,7 @@
                         <h5 class="mt-4 mb-0">الوصول للموارد</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="10"
                         data-wow-delay="0.5s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/projectManagement.webp" alt="">
@@ -53,7 +53,7 @@
                         <h5 class="mt-4 mb-0">إرشاد استراتيجي</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="10"
                         data-wow-delay="0.7s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/accessNetworks.webp" alt="">
@@ -61,7 +61,7 @@
                         <h5 class="mt-4 mb-0">فرص التواصل</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="10"
                         data-wow-delay="0.9s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/communitySupport.webp" alt="">
@@ -87,7 +87,7 @@
                     <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower" data-wow-offset="1"
                         data-wow-delay="0.1s">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/buildingPartnerships.webp" alt="">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/bringFinancing.webp" alt="">
@@ -105,7 +105,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/projectManagement.webp" alt="">
@@ -114,7 +114,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/accessNetworks.webp" alt="">
@@ -123,7 +123,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/communitySupport.webp" alt="">

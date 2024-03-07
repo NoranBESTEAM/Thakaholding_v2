@@ -30,40 +30,40 @@
 
                 <div id="content_wrapper" class="mt-4 d-none d-md-flex">
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.1s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.1s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/securitySolutions.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">حلول أمنية</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.3s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.3s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/cloudHosting.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">استضافة سحابية</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.5s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.5s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/userExperienceDesign.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">تصميم تجربة المستخدم</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.7s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.7s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/softwareSolutions.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">حلول برمجية</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.9s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.9s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/Rehabilitation.webp" alt="">
                         </div>
@@ -86,10 +86,10 @@
                 <div id="carouselInformationSlidesOnly" class="carousel slide d-block d-md-none mt-4"
                     data-bs-ride="carousel">
 
-                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower" data-wow-offset="1"
-                        data-wow-delay="0.1s">
+                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="4500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/securitySolutions.webp" alt="">
@@ -98,7 +98,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/cloudHosting.webp" alt="">
@@ -107,7 +107,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/userExperienceDesign.webp" alt="">
@@ -116,7 +116,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/softwareSolutions.webp" alt="">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/Rehabilitation.webp" alt="">
@@ -225,6 +225,7 @@ export default {
         .container {
 
             margin-top: 40px;
+            margin-bottom: 40px;
 
             #partner_img_wrapper {
 

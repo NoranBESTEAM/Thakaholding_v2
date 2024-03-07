@@ -11,8 +11,10 @@
                 </div>
 
                 <p class="mt-4 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1"
-                    data-wow-delay="0.1s">نعمل في ذكاء الدولية على رفع مستوى الخدمات التقنية المقدمة في العالم العربي لتكون
-                    ذكاء الدولية شريك مؤثر في مجال الخدمات التقنية والذكاء الاصطناعي وتطوير الأعمال داخل وخارج الوطن العربي.
+                    data-wow-delay="0.1s">نعمل في ذكاء الدولية على رفع مستوى الخدمات التقنية المقدمة في العالم العربي
+                    لتكون
+                    ذكاء الدولية شريك مؤثر في مجال الخدمات التقنية والذكاء الاصطناعي وتطوير الأعمال داخل وخارج الوطن
+                    العربي.
                 </p>
 
                 <!-- In Large Screen -->
@@ -30,40 +32,40 @@
 
                 <div id="content_wrapper" class="mt-4 d-none d-md-flex">
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.1s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.1s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/integratedTechnicalSolutions.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">حلول تقنية متكاملة</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.3s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.3s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/businessMarketing.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">تسويق وتطوير الأعمال</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.5s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.5s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/Education.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">تدريب وتأهيل</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.7s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.7s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/Consultations.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">الدراسات والاستشارات</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.9s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.9s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/protectionSolutions.webp" alt="">
                         </div>
@@ -86,10 +88,10 @@
                 <div id="carouselInternationalSlidesOnly" class="carousel slide d-block d-md-none mt-4"
                     data-bs-ride="carousel">
 
-                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower" data-wow-offset="1"
-                        data-wow-delay="0.1s">
+                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="5500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/integratedTechnicalSolutions.webp" alt="">
@@ -98,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/businessMarketing.webp" alt="">
@@ -107,7 +109,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/Education.webp" alt="">
@@ -116,7 +118,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/Consultations.webp" alt="">
@@ -125,7 +127,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5500">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/protectionSolutions.webp" alt="">
@@ -140,13 +142,13 @@
 
                     <!-- Carousel controls -->
 
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselInternationalSlidesOnly"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselInternationalSlidesOnly" data-bs-slide="next">
                         <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
                     </button>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInternationalSlidesOnly"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselInternationalSlidesOnly" data-bs-slide="prev">
                         <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
                     </button>
 
@@ -233,6 +235,7 @@ export default {
         .container {
 
             margin-top: 40px;
+            margin-bottom: 40px;
 
             #partner_img_wrapper {
 
@@ -259,7 +262,6 @@ export default {
             // In Large Screen
 
             .title {
-
                 display: flex;
                 justify-content: space-between;
                 align-items: center;

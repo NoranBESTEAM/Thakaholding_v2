@@ -11,8 +11,10 @@
                 </div>
 
                 <p class="mt-4 wow animate__animated animate__slideInRight animate__slower" data-wow-offset="1"
-                    data-wow-delay="0.1s">تأسست شركة روبوتيرا عام 2020 بهدف تعزيز مجال الروبوت وخدمات تقنية الذكاء الاصطناعي
-                    في المملكة العربية السعودية، وذلك من خلال توطين صناعة الروبوتات ورفع كفاءات الموارد البشرية في المملكة
+                    data-wow-delay="0.1s">تأسست شركة روبوتيرا عام 2020 بهدف تعزيز مجال الروبوت وخدمات تقنية الذكاء
+                    الاصطناعي
+                    في المملكة العربية السعودية، وذلك من خلال توطين صناعة الروبوتات ورفع كفاءات الموارد البشرية في
+                    المملكة
                     في مجالات تصنيع وتشغيل وتعليم الروبوتات.</p>
 
                 <!-- In Large Screen -->
@@ -30,40 +32,40 @@
 
                 <div id="content_wrapper" class="mt-4 d-none d-md-flex">
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.1s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.1s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/manufactureRobots.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">تصنيع وتشغيل الروبوتات</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.3s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.3s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/roboticsAcademies.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">أكاديميات الروبوت والذكاء الاصطناعي</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.5s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.5s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/robotCompetitions.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">فعاليات ومسابقات الروبوت</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.7s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.7s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/roboticsResearch.webp" alt="">
                         </div>
                         <h5 class="mt-4 mb-0">أبحاث وتطوير الروبوتات</h5>
                     </div>
 
-                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower" data-wow-offset="50"
-                        data-wow-delay="0.9s">
+                    <div class="service_ele wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="10" data-wow-delay="0.9s">
                         <div class="image_wrapper">
                             <img src="@/assets/images/partner/technicalConsulting.webp" alt="">
                         </div>
@@ -83,11 +85,13 @@
                 <h3 class="mt-3 d-block d-md-none wow animate__animated animate__slideInRight animate__slow"
                     data-wow-offset="1" data-wow-delay="0.1s">خدمات روبوتيرا</h3>
 
-                <div id="carouselRoboteraSlidesOnly" class="carousel slide d-block d-md-none mt-4" data-bs-ride="carousel">
+                <div id="carouselRoboteraSlidesOnly" class="carousel slide d-block d-md-none mt-4"
+                    data-bs-ride="carousel">
 
-                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower" data-wow-offset="1" data-wow-delay="0.1s">
+                    <div class="carousel-inner wow animate__animated animate__slideInUp animate__slower"
+                        data-wow-offset="1" data-wow-delay="0.1s">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="4000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/manufactureRobots.webp" alt="">
@@ -96,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/roboticsAcademies.webp" alt="">
@@ -105,7 +109,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/robotCompetitions.webp" alt="">
@@ -114,7 +118,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/roboticsResearch.webp" alt="">
@@ -123,7 +127,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <div class="service_ele">
                                 <div class="image_wrapper">
                                     <img src="@/assets/images/partner/technicalConsulting.webp" alt="">
@@ -387,4 +391,5 @@ export default {
         }
 
     }
-}</style>
+}
+</style>
